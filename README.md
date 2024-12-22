@@ -2,7 +2,9 @@
 Personalized Dish Recommendation System
 
 FlavourAI is a personalized dish recommendation system that suggests recipes tailored to user preferences. By leveraging natural language processing and machine learning techniques, it analyzes user input to provide customized recipe recommendations.
+
 Dataset: https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews
+
 Output:-
 ![Screenshot 2024-12-21 201801](https://github.com/user-attachments/assets/d42711f1-9520-42e6-a62e-280a22777a5f)
 
