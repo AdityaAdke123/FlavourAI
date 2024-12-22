@@ -1,75 +1,37 @@
-# FlavourAI
-Personalized Dish Recommendation System
+# FlavourAI  
+**Your Personalized Dish Recommendation System**  
 
-FlavourAI is a personalized dish recommendation system that suggests recipes tailored to user preferences. By leveraging natural language processing and machine learning techniques, it analyzes user input to provide customized recipe recommendations.
+FlavourAI transforms your food cravings into personalized recipe recommendations. By harnessing the power of **natural language processing** and **machine learning**, this system delivers tailored suggestions to suit your tastes and dietary needs.  
 
-Dataset: https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews
+## **Dataset**  
+We leverage the comprehensive [Food.com Recipes and Reviews](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) dataset from Kaggle, featuring over 550,000 recipes and user reviews for a rich and diverse culinary experience.  
 
-Output:-
-![Screenshot 2024-12-21 201801](https://github.com/user-attachments/assets/d42711f1-9520-42e6-a62e-280a22777a5f)
+---
 
-![Screenshot 2024-12-21 201858](https://github.com/user-attachments/assets/ef00b555-68f1-462d-aae7-ebff8025873c)
+## **Features**  
 
-Features
-Content-Based Filtering: Utilizes Sentence-BERT embeddings and cosine similarity to match user queries with relevant recipes.
+- **Intelligent Content-Based Filtering**  
+  Using **Sentence-BERT embeddings** and **cosine similarity**, FlavourAI precisely matches user queries with relevant recipes.  
 
-Extensive Recipe Database: Processes a dataset of over 550,000 recipes, ensuring a wide variety of options.
+- **Massive Recipe Database**  
+  With a dataset of over **550,000 recipes**, you’re guaranteed a wide variety of culinary options, from quick snacks to gourmet meals.  
 
-Streamlit Web Application: Provides an interactive user interface for seamless recipe exploration.
+---
 
-Dataset
-The project uses the Food.com Recipes and Reviews dataset from Kaggle, which includes a comprehensive collection of recipes and user reviews.
+## **See It in Action!**  
 
-Installation
-Clone the repository:
+🌟 Enter your food cravings, such as "I want something spicy and low calorie," and let FlavourAI recommend the perfect dishes for you!  
 
-bash
-Copy code
-git clone https://github.com/AdityaAdke123/FlavourAI.git
-Navigate to the project directory:
+### **Output Samples:**  
+![Screenshot 1](https://github.com/user-attachments/assets/d42711f1-9520-42e6-a62e-280a22777a5f)  
+![Screenshot 2](https://github.com/user-attachments/assets/ef00b555-68f1-462d-aae7-ebff8025873c)  
 
-bash
-Copy code
-cd FlavourAI
-Install the required packages:
+---
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run the Streamlit application:
+## **Get Started**  
 
-bash
-Copy code
-streamlit run app.py
-Interact with the app:
+### **Installation**  
 
-Enter your food preferences or dietary requirements in natural language.
-
-Receive personalized recipe recommendations based on your input.
-
-Data Preprocessing
-The dataset undergoes several preprocessing steps to enhance recommendation accuracy:
-
-Keyword Standardization: Cleans and standardizes recipe keywords for consistency.
-
-Nested Structure Handling: Flattens nested data structures to simplify analysis.
-
-Embedding Generation: Generates dense vector embeddings for each recipe using Sentence-BERT, facilitating efficient similarity calculations.
-
-Model Evaluation
-The recommendation system's performance is evaluated using:
-
-Cosine Similarity: Measures the similarity between user queries and recipe embeddings.
-
-User Feedback: Assesses recommendation relevance based on user interactions.
-
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgements
-Special thanks to Kaggle for providing the dataset and to the open-source community for their invaluable tools and resources.
-
+1. **Clone the Repository**:  
+   ```bash  
+   git clone https://github.com/AdityaAdke123/FlavourAI.git  
